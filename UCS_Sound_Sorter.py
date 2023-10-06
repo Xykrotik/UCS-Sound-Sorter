@@ -1,5 +1,12 @@
 import os
 import shutil
+import tkinter as tk
+
+# Create a Tkinter window for the GUI
+window = tk.Tk()
+label = tk.Label(window, text="Hello, Tkinter!")
+label.pack()
+window.mainloop()
 
 source_dir = input("Enter path of source directory: ")
 destination_dir = input("Enter path of target directory: ") 
